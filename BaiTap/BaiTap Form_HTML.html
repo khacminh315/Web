@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form method="get" action="" >
+			<p><label for="em">Email</label></p>
+			<input type="email" required="required" name="Email" id="em">  
+			<p>Mật Khẩu</p> 
+			<input type="password" name="MatKhau">
+			<p>Message</p>
+			<textarea name="message" rows="3" cols="50">
+			</textarea> <br>
+			<fieldset>
+				<legend>Giới Tính</legend>
+				<input type="radio" name="gioitinh" value="Nam">Nam <br>
+				<input type="radio" name="gioitinh" value="Nữ">Nữ <br>
+			</fieldset>
+			<fieldset>
+				<legend>Sở Thích</legend>
+				<input type="checkbox" name="sothich" value="Bơi">Bơi <br>
+				<input type="checkbox" name="sothich" value="Đạp xe">Đạp xe <br>
+				<input type="checkbox" name="sothich" value="Đá bóng">Đá bóng <br>
+			</fieldset>
+			
+			<p>Tỉnh Thành</p>
+			<select name="tinh thanh">
+				<option value="binh duong" selected="selected">Bình Dương</option>
+				<option value="ho chi minh">Hồ Chí Minh</option>
+			</select>
+
+			<p>Năm sinh</p>
+			<input type="range" name="namsinh" min="1990" max="2020"> <br>
+
+			<p>Số tuổi</p>
+			<input type="number" name="number" min="15" max="99" > 
+			<br>
+			<br>
+			<input type="reset" name="resetBtn" value="Reset the form"> 
+			<input type="submit" name="submit" value="Send"> 
+			<br>
+			<br>
+
+		</form>
+		<iframe width="560"
+				 height="315" 
+				 src="https://www.youtube.com/embed/SNES5Y-tYxM" 
+				 frameborder="0" 
+				 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+				 allowfullscreen>
+		 </iframe>
+		
+	</body>
+</html>
