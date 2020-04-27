@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object and Event Exercise 1</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function product( _ID, _Name, _Image, _Price, _DiscountedPrice) {
+			return {
+				ID : _ID,
+				Name : _Name,
+				Image : _Image,
+				Price : _Price,
+				DiscountedPrice : _DiscountedPrice,
+				toString :function(){
+					console.log (this.Name);
+				}
+			};
+			
+		}
+		let a =product("1",'A','10','100000Đ','50000Đ');
+		let b =product("2",'B','10','100000Đ','50000Đ');
+		a.toString();
+		b.toString();
+
+		
+	</script>
+
+
+</body>
+</html>
